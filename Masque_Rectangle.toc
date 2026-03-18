@@ -2,10 +2,16 @@
 
 ## Title: Masque: |cffFF4500Rectangle|r
 ## Author: ZelionGG
+## Version: @project-version@
 ## Notes: Revival of HeyBarbaruivaUI's Masque skin
 ## Dependencies: Masque
+
 ## X-Curse-Project-ID: 1489319
 ## X-Wago-ID: aNebJb62
+
+## X-Website: https://github.com/ZelionGG/Masque_Rectangle
+## X-Issues: https://github.com/ZelionGG/Masque_Rectangle/issues
+
 ## IconTexture: Interface\AddOns\Masque_Rectangle\icon.png
 
 # Locales
