@@ -1,8 +1,12 @@
 ﻿## Interface: 120001, 50503, 38000, 20505, 11508
+
 ## Title: Masque: |cffFF4500Rectangle|r
 ## Author: ZelionGG
 ## Notes: Revival of HeyBarbaruivaUI's Masque skin
 ## Dependencies: Masque
+## X-Curse-Project-ID: 1489319
+## X-Wago-ID: aNebJb62
+## IconTexture: Interface\AddOns\Masque_Rectangle\icon.png
 
 # Locales
 Locales.lua
