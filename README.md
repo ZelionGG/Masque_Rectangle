@@ -36,7 +36,6 @@
     <li><a href="#how-it-works">How it works</a></li>
     <li><a href="#troubleshooting">Troubleshooting</a></li>
     <li><a href="#project-structure">Project structure</a></li>
-    <li><a href="#rights-and-content-notice">Rights and content notice</a></li>
   </ol>
 </details>
 
@@ -116,12 +115,6 @@ Masque_Rectangle/
   Skins.lua
   README.md
 ```
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## Rights and content notice
-
-This addon is not affiliated with, endorsed by, or officially maintained by Blizzard Entertainment. All World of Warcraft-related names and assets are property of Blizzard and their respective owners.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
