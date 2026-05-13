@@ -16,6 +16,27 @@ jobs:
       - name: Clone project
         uses: actions/checkout@v6
 
+      - name: Debug TOC header
+        run: |
+          echo "First line:"
+          sed -n '1p' Masque_Rectangle.toc | cat -A
+          echo
+          echo "First bytes:"
+          xxd -g 1 -l 16 Masque_Rectangle.toc
+
+      - name: Debug Blizzard versions
+        run: |
+          echo "Retail:"
+          curl -fsSL https://us.version.battle.net/v2/products/wow/versions | awk -F'|' '/^us\|/{print $6}'
+          echo "Mists:"
+          curl -fsSL https://us.version.battle.net/v2/products/wow_classic/versions | awk -F'|' '/^us\|/{print $6}'
+          echo "Wrath:"
+          curl -fsSL https://us.version.battle.net/v2/products/wow_classic_titan/versions | awk -F'|' '/^cn\|/{print $6}'
+          echo "TBC/Anniversary:"
+          curl -fsSL https://us.version.battle.net/v2/products/wow_anniversary/versions | awk -F'|' '/^us\|/{print $6}'
+          echo "Vanilla:"
+          curl -fsSL https://us.version.battle.net/v2/products/wow_classic_era/versions | awk -F'|' '/^us\|/{print $6}'
+
       - name: Update TOC Interface version
         uses: p3lim/toc-interface-updater@v4
         with:
